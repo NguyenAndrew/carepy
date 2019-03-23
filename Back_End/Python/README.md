@@ -1,4 +1,4 @@
-# Pfra - The Pf part of Pfra
+# Python Flask - The py part of carepy
 
 The Python Flask web server
 
@@ -8,11 +8,6 @@ The Python Flask web server
 2. Install pipenv (pip install pipenv)
 3. Run the command: `pipenv shell`
 4. Run the command: `pipenv install --dev`
-
-## Example Usage
-
-* Open the website located at http://localhost:5000/ (Serves the website over the default endpoint)
-* Serve a REST API over several implemented endpoints
 
 ## Dependencies
 
