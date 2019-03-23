@@ -1,4 +1,4 @@
-# Carepy - React and Python Flask full stack application
+# carepy - React and Python Flask - Full Stack application
 
 carepy is the fastest way to spin up a Full Stack application (React + Flask) with [Cucumber](https://docs.cucumber.io/guides/10-minute-tutorial/) and [Behave](https://behave.readthedocs.io/en/latest/) BDD testing 
 
@@ -20,6 +20,11 @@ Note: To quickly install Pipenv execute the command ```pip install --user pipenv
 
 ## FAQ
 
+Q: Can I use Node on the backend instead of Python?
+
+A: Careen.js is the fastest way to spin up a Node + React application with BDD. It is located at https://github.com/NguyenAndrew/careen
+
+---
 
 Q: What technologies are used on the back end?
 
