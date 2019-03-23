@@ -6,8 +6,7 @@
     "install:all": "npm install && concurrently \"cd ../Back_End/Python && pipenv run pipenv install --dev\" \"cd ../Front_End/React && npm install\"",
     "dev:all": "concurrently \"cd ../Back_End/Python && pipenv run python src/server.py\" \"cd ../Front_End/React && npm run start\"",
     "test:all": "concurrently \"cd ../Back_End/Python/ && pipenv run behave test\" \"cd ../Front_End/React && npm test\"",
-    "test": "cd ../Back_End/Python/ && pipenv run nodemon -e py --exec behave test",
-    "test:watch:all": "concurrently \"cd ../Back_End/Node/ && pipenv run nodemon behave test\" \"cd ../Front_End/React && npm run test:watch\""
+    "test:watch:all": "concurrently \"cd ../Back_End/Python/ && pipenv run nodemon -e py --exec behave test\" \"cd ../Front_End/React && npm run test:watch\""
   },
   "keywords": [],
   "author": "",
