@@ -35,7 +35,7 @@
     "cucumber": "^5.1.0",
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.7.1",
-    "jsdom": "^13.1.0",
+    "jsdom": "^16.5.0",
     "nock": "^10.0.6"
   }
 }
